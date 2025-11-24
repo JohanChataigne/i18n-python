@@ -1,0 +1,20 @@
+version = 1
+revision = 3
+requires-python = ">=3.13"
+
+[[package]]
+name = "i18n-python"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "pyicu" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pyicu", specifier = ">=2.16" }]
+
+[[package]]
+name = "pyicu"
+version = "2.16"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/11/c3/8d558b30deb33eb583c0bcae3e64d6db8316b69461a04bb9db5ff63d3f6e/pyicu-2.16.tar.gz", hash = "sha256:42b3a8062e3b23e927ca727e6b5e1730d86c70279834e4887152895d2eb012d9", size = 268126, upload-time = "2025-11-04T23:33:00.006Z" }
