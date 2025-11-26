@@ -1,0 +1,5 @@
+{
+  "welcome": "Welcome, {name}!",
+  "files": "{count, plural, one {1 file} other {# files}}",
+  "balance": "Your balance is {amount, number, ::currency/EUR}"
+}
